@@ -7,15 +7,15 @@
 9012 -> 12  */
 
 int a = TakeConsoleInt();
-Console.WriteLine($"Сумма цифр в числе {a}={int Sum()}");
+Console.WriteLine($"Сумма цифр в числе {a} = {Sum(a)}");
 
-int Sum()
+int Sum(int a)
 {
     int sum = 0;
     while (a > 0)
         {
             sum += a%10;
-            a = a/10;
+            a = a / 10;
         }
     return sum;
 }
