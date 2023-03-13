@@ -3,7 +3,7 @@
 
 [345, 897, 568, 234] -> 2  */
 
-int[] array = FillArray(10,100,1000);
+double[] array = FillArray(10,100,1000);
 int even = 0;
 Print(array);
 Console.Write($"Четных чисел в массиве -> {even}");
